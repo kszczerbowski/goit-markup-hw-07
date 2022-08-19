@@ -1,0 +1,55 @@
+.strengths-icons {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-left: 0px;
+    list-style-type: none;
+    &__strength-background {
+        display: flex;
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background-color: var(--color-our-strengths-icon-background);
+        justify-content: center;
+        align-items: center;
+    }
+    &__strength:nth-child(1) {
+        margin-left: 15px;
+    }
+    &__strength:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.strengths {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+    &__heading {
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+    &__text {
+        line-height: 1.71;
+        letter-spacing: 0.03em; 
+        color: var(--text-secondary);
+        padding-top: 10px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+    &__text-block {
+        width: 270px;
+    }
+    &__strength:nth-child(1) {
+        margin-left: 15px;
+    }
+    &__strength:not(:last-child) {
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,34 @@
+%animate {
+    transition-property: color, fill, background-color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients {
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+    list-style-type: none;
+    &__background {
+        @extend %animate;
+        width: 170px;
+        height: 92px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: $color-icon;
+        border: solid $color-icon 1px;
+        &:hover, &focus {
+            fill: $color-active;
+            border: solid $color-active 1px;
+            cursor: pointer;
+        }
+    }
+    &__client:nth-child(1) {
+        margin-left: 15px;
+    }
+    &__client:not(:last-child) {
+        margin-right: 30px;
+    }
+}

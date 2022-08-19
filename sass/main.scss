@@ -1,0 +1,40 @@
+@import 'utils/colors';
+@import 'components/agency-clients';
+@import 'components/agency-employees';
+@import 'components/agency-headline';
+@import 'components/agency-strengths';
+@import 'components/agency-what-we-do';
+@import 'components/page-footer';
+@import 'components/page-header';
+@import 'components/portfolio-filters';
+@import 'components/portfolio-products';
+@import 'components/modal-window';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: $text-main;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
