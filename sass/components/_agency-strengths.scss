@@ -9,7 +9,7 @@
         width: 270px;
         height: 120px;
         border-radius: 4px;
-        background-color: var(--color-our-strengths-icon-background);
+        background-color: $color-our-strengths-icon-background;
         justify-content: center;
         align-items: center;
     }
@@ -38,7 +38,7 @@
     &__text {
         line-height: 1.71;
         letter-spacing: 0.03em; 
-        color: var(--text-secondary);
+        color: $text-secondary;
         padding-top: 10px;
         margin-block-start: 0px;
         margin-block-end: 0px;
